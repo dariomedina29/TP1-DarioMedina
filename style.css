@@ -17,3 +17,26 @@ body{
     align-items: center;
     background-color: lightskyblue;
 }
+
+.menu a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: .5rem;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.menu{
+    color: rgb(197, 115, 7);
+    text-decoration: none;
+    border-radius: .5rem;
+    padding: 5px;
+    transition: ease-in .3s;
+    margin-left: 1100px;
+}
+
+.menu a:hover{
+    background-color: #2F3F80;
+    color: white;
+    border-radius: 30px;
+}
