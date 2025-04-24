@@ -40,3 +40,19 @@ body{
     color: white;
     border-radius: 30px;
 }
+
+.mi{
+line-height: 1.5;
+}
+
+.presentacion{
+    margin-left: 700px;
+    margin-top: -900px;
+    width: 1000px;
+    height: 370px;
+}
+
+.presentacion h2{
+    text-align: center;
+}
+
