@@ -10,6 +10,8 @@ body{
     background-color: rgb(216, 237, 243);
 }
 
+/*barra navegacion*/
+
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -41,18 +43,92 @@ body{
     border-radius: 30px;
 }
 
+/*Sobre Mi*/
 .mi{
 line-height: 1.5;
 }
 
 .presentacion{
-    margin-left: 700px;
-    margin-top: -900px;
-    width: 1000px;
-    height: 370px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+    max-width: 900px;
+    padding: 0 20px;    
 }
 
 .presentacion h2{
     text-align: center;
 }
 
+.perfil img{
+    max-width: 100px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.sobremi{
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+    margin-top: 20px;
+}
+
+.habilidades{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.presentacion p strong{
+    color: red;
+}
+
+.presentacion p strong em{
+    color: blue;
+}
+
+/*Tabla*/
+table{
+    margin: 20px auto;
+    width: 80%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 0 10px #ccc;
+}
+
+th td{
+    padding: 12px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.alto{
+    background-color: #b2fab4;
+}
+
+.medio{
+    background-color: #fef3a0;
+}
+
+
+/*Footer*/
+footer{
+    margin-top: 50px;
+    padding: 40px;
+    background-color: #c6e7f5;
+    text-align: center;
+}
+
+.final img{
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+}
+
+.final img:hover{
+    transform: scale(1.1);
+}
+
+.formulario{
+    margin-top: 20px;
+}
