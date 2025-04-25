@@ -24,7 +24,7 @@ body{
     color: rgb(0, 0, 0);
     text-decoration: none;
     border-radius: .5rem;
-    padding: 20px;
+    padding: 10px;
     cursor: pointer;
 }
 
@@ -141,3 +141,4 @@ footer{
     margin-top: -35px;
     margin-left: 800px;
 }
+
